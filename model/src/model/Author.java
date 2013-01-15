@@ -22,4 +22,9 @@ public class Author {
     public void setLastName(String lastName) {
         m_lastName = lastName;
     }
+    
+    @Override
+    public String toString() {
+        return getFirstName() + " " + getLastName();
+    }
 }

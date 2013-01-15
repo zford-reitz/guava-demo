@@ -32,4 +32,9 @@ public class Patron {
     public void setId(int id) {
         m_id = id;
     }
+    
+    @Override
+    public String toString() {
+        return getFirstName() + " " + getLastName() + "(" + getId() + ")";
+    }
 }
