@@ -1,13 +1,3 @@
-/*
- * $RCSfile: eclipse_3_codetemplates.xml,v $
- *
- * $Revision: 1.1 $
- *
- * $Date: 2005/06/30 11:34:59 $
- *
- * $Author: keek $ BREDEX GmbH (http://www.bredex.de) Copyright(c) 2013 
- * 
- */
 package math;
 
 import java.util.Calendar;
