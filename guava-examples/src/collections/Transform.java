@@ -2,6 +2,8 @@ package collections;
 
 import model.Library;
 
+import collections.util.Utils;
+
 import com.google.common.base.Joiner;
 import com.google.common.base.Predicates;
 import com.google.common.collect.FluentIterable;

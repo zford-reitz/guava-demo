@@ -3,6 +3,8 @@ package collections;
 import model.Book;
 import model.Library;
 
+import collections.util.Utils;
+
 import com.google.common.collect.FluentIterable;
 
 public class Filter {

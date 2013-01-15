@@ -1,4 +1,4 @@
-package collections;
+package collections.util;
 
 import model.Book;
 import model.Library;
