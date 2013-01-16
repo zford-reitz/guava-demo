@@ -15,7 +15,7 @@ public class Partition {
         List<Book> currentList = new ArrayList<Book>();
 
         for (Book book : Library.ALL_BOOKS) {
-            if (count >= 2) {
+            if (count >= partitionSize) {
                 count = 0;
                 currentList = new ArrayList<Book>();
                 partitions.add(currentList);
